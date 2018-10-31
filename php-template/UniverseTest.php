@@ -3,6 +3,7 @@
 	echo "<script>";
 	echo "document.getelementbyid('tmp').innerhtml ='" . $html . "'";
 	echo "</script>";
+	echo $html;
 ?>
 
 <div id='tmp'></div>
