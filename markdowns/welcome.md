@@ -7,7 +7,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/php-template), pleas
 
 # HTMLM
 
-```HTML runnable
+```html runnable
 <h1>Titre</h1>
 <p>Paragraphe</p>
 ````
