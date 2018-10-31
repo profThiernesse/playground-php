@@ -1,6 +1,9 @@
 <?php
-    include 'Universe.php';
+	echo "<script>";
+	echo "document.getelementbyid('tmp').innerhtml ='";
+    	include 'Universe.php';
+	echo "'";
+	echo "</script>";
 ?>
-<script>
-	console.log("TECHIO> message PROUT")
-</script>
+
+<div id='tmp'></div>
