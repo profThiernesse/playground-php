@@ -1,3 +1,4 @@
+<div id='tmp'></div>
 <?php
 	$html = file_get_contents('Universe.php');
 	echo "<script>";
@@ -6,4 +7,4 @@
 	echo $html;
 ?>
 
-<div id='tmp'></div>
+
