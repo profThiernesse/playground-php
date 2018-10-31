@@ -5,7 +5,7 @@
 	echo "<script>";
 	echo "var el = document.createElement( 'html' );";
 	echo "el.innerhtml ='$html';";
-	echo "console.log(el.getElementsByTagName( 'p' ));";
+	echo "console.log(el);";
 	echo "</script>";
 	echo $html;
 ?>
