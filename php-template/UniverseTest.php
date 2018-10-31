@@ -4,8 +4,9 @@
 	$html = str_replace("\r","",$html);
 	echo "<script>";
 	echo "var el = document.createElement( 'html' );";
-	echo "el.innerhtml ='$html';";
+	echo "el.innerHTML ='$html';";
 	echo "console.log(el);";
+	echo "console.log(el.getElementByTagName('p');";
 	echo "</script>";
 	echo $html;
 ?>
