@@ -1,4 +1,4 @@
-<div id='tmp'></div>
+<div id='tmp'>dd</div>
 <?php
 	$html = file_get_contents('Universe.php');
 	echo "<script>";
