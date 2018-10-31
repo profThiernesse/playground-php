@@ -2,5 +2,5 @@
     include 'Universe.php';
 ?>
 <script>
-	alert("echo");
+	console.log("TECHIO> message PROUT")
 </script>
