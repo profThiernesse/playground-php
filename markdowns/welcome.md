@@ -5,6 +5,13 @@ This PHP template lets you get started quickly with a simple working example in 
 
 The source code is on [GitHub](https://github.com/TechDotIO/php-template), please feel free to come up with proposals to improve it.
 
+# HTMLM
+
+```HTML runnable
+<h1>Titre</h1>
+<p>Paragraphe</p>
+````
+
 # Hands-on Demo
 
 @[Luke, how many stars there are in these galaxies?]({"stubs": ["Universe.php"], "command": "/bin/bash run.sh"})
