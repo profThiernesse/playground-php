@@ -1,11 +1,10 @@
-<div id='tmp'>dd</div>
+<div id='tmp'></div>
 <?php
-	$html = str_replace(PHP_EOL,"",file_get_contents('Universe.php'));
+	$html = str_replace("\n","",file_get_contents('fichier.txt'));
+	$html = str_replace("\r","",$html);
 	echo "<script>";
-	echo "document.getelementbyid('tmp').innerhtml ='" . $html . "'";
-	echo "console.log('$html')";
+	echo "document.getElementById('tmp').innerhtml ='$html';";
+	echo "console.log('$html');";
 	echo "</script>";
 	echo $html;
 ?>
-
-
