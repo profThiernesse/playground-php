@@ -1,4 +1,3 @@
-php UniverseTest.php > UniverseTest.html
-echo "TECHIO> message Mon message"
-echo "TECHIO> open -s /project/target/ UniverseTest.html"
-
+echo "TECHIO> open -s /project/target/ Universe.php"
+echo "TECHIO> redirect-streams out"
+php UniverseTest.php
