@@ -1,3 +1,3 @@
-echo "TECHIO> open -s /project/target/ Universe.php"
-echo "TECHIO> redirect-streams out"
+echo "TECHIO> open -s /project/target/ Universe.html"
+echo "TECHIO> redirect-streams 'TPTP'"
 php UniverseTest.php
