@@ -1,2 +1,2 @@
-php UniverseTest.php
-echo "TECHIO> open -s /project/target/ UniverseTest.php"
+php UniverseTest.php > UniverseTest.html
+echo "TECHIO> open -s /project/target/ UniverseTest.html"
