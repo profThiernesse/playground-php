@@ -6,7 +6,7 @@
 	echo "el.innerHTML ='$html';";
 	echo "console.log(el);";
 	echo "console.log(el.getElementsByTagName('p'));";
-	echo "TECHIO> message salut";
+	echo "\nTECHIO> message salut\n";
 	echo "</script>";
 	
 ?>
