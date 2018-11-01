@@ -1,6 +1,6 @@
 
 echo "TECHIO> redirect-streams 'Output'"
-#php $1".php" > "output.html"
+php "header.php" $1".html" > $1".html"
 
 
 #cat output.html
