@@ -3,7 +3,7 @@ echo "TECHIO> redirect-streams 'Output'"
 php "header.php" $1".html" > $1".html"
 
 
-#cat output.html
+cat $1".html"
 #ls ../target -al
 #ls ../workspace -al
 
