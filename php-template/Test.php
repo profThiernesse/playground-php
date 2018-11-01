@@ -8,12 +8,15 @@
 	// var_dump(realpath($argv[1]));
 	// var_dump(file_get_contents($argv[1]));
 	
-	check_DOM(file_get_contents($argv[1]),$argv[2]);
+	check_DOM($argv[1],$argv[2]);
 	
 	function check_DOM($file,$exp) {
 		// $html = file_get_html($file);
-		$html = str_get_html($file);
+		$html = str_get_html(file_get_contents($argv[1]));
 		$dom_string = go_DOM($html->root);
+		
+		$dom_string = str_replace("comment--","",$dom_string);
+		
 		echo "DOM\n";
 		echo $dom_string . "\n";
 		echo "DOM\n";
