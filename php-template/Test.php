@@ -5,7 +5,7 @@
 	var_dump($argv[1]);
 	var_dump($argv[2]);
 	
-	check_DOM("/project/target/" . $argv[1],$argv[2]);
+	check_DOM($argv[1],$argv[2]);
 	
 	function check_DOM($file,$exp) {
 		$html = file_get_html($file);
