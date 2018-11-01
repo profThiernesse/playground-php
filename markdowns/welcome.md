@@ -14,7 +14,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/php-template), pleas
 
 # Hands-on Demo
 
-@[Luke, how many stars there are in these galaxies?]({"stubs": ["Universe.html"], "command": "/bin/bash run.sh"})
+@[Luke, how many stars there are in these galaxies?]({"stubs": ["exo1.html"], "command": "/bin/bash run.sh exo1"})
 
 Check out the markdown file [`welcome.md`]() to see how this exercise is injected into the template.
 
