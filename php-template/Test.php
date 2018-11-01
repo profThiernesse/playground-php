@@ -14,7 +14,7 @@
 		echo $dom_string;
 		echo "DOM\n";
 		
-		var_dump($html);
+		//var_dump($html);
 		
 		$exp = str_replace(array("[","]"),array("\[","\]"),$exp);
 		
