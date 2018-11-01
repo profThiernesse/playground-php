@@ -10,8 +10,8 @@
 	
 	function check_DOM($file,$exp) {
 		$html = file_get_html($file);
-		var_dump($html);
 		$dom_string = go_DOM($html->root);
+		echo $dom_string;
 		$exp = str_replace(array("[","]"),array("\[","\]"),$exp);
 		
 		if (preg_match("#$exp#",$dom_string)) {
