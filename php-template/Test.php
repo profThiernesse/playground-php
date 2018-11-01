@@ -5,8 +5,8 @@
 	// var_dump($argv[1]);
 	// var_dump($argv[2]);
 	
-	var_dump(realpath($argv[1]));
-	var_dump(file_get_contents($argv[1]));
+	// var_dump(realpath($argv[1]));
+	// var_dump(file_get_contents($argv[1]));
 	
 	check_DOM($argv[1],$argv[2]);
 	
