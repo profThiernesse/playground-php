@@ -11,9 +11,10 @@
 	function check_DOM($file,$exp) {
 		$html = file_get_html($file);
 		$dom_string = go_DOM($html->root);
+		echo "DOM";
 		echo $dom_string;
 		$exp = str_replace(array("[","]"),array("\[","\]"),$exp);
-		
+		echo "DOM";
 		if (preg_match("#$exp#",$dom_string)) {
 			echo "TECHIO> success true\n";
 		}
