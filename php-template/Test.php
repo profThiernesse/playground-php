@@ -1,8 +1,10 @@
 <?php
 
 	include("simple_html_dom.php");
-	$exp = "^h1--div--([.*ul--[li-id-(li-.*-){3,}].*])$";
-	check_DOM($argv[1],$exp);
+	//$exp = "^h1--div--([.*ul--[li-id-(li-.*-){3,}].*])$";
+	var_dump($argv[2]);
+	
+	check_DOM($argv[1],$argv[2]);
 	
 	var_dump($argv);
 	
@@ -12,10 +14,10 @@
 		$exp = str_replace(array("[","]"),array("\[","\]"),$exp);
 		
 		if (preg_match("#$exp#",$dom_string)) {
-			echo "TECHIO> succes true\n";
+			echo "TECHIO> success true\n";
 		}
 		else {
-			echo "TECHIO> succes false\n";
+			echo "TECHIO> success false\n";
 			echo "TECHIO> message --channel 'Error' 'DOM failed'\n";
 		}
 	}
