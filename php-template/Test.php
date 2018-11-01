@@ -17,9 +17,9 @@
 		
 		$dom_string = str_replace("comment--","",$dom_string);
 		
-		echo "DOM\n";
-		echo $dom_string . "\n";
-		echo "DOM\n";
+		// echo "DOM\n";
+		// echo $dom_string . "\n";
+		// echo "DOM\n";
 		
 		//var_dump($html);
 		
