@@ -6,15 +6,17 @@
 	
 	check_DOM($argv[1],$argv[2]);
 	
-	var_dump($argv);
-	
 	function check_DOM($file,$exp) {
 		$html = file_get_html($file);
 		$dom_string = go_DOM($html->root);
-		echo "DOM";
+		echo "DOM\n";
 		echo $dom_string;
+		echo "DOM\n";
+		
+		var_dump($html);
+		
 		$exp = str_replace(array("[","]"),array("\[","\]"),$exp);
-		echo "DOM";
+		
 		if (preg_match("#$exp#",$dom_string)) {
 			echo "TECHIO> success true\n";
 		}
