@@ -15,7 +15,7 @@
 		$html = str_get_html($file);
 		$dom_string = go_DOM($html->root);
 		echo "DOM\n";
-		echo $dom_string;
+		echo $dom_string . "\n";
 		echo "DOM\n";
 		
 		//var_dump($html);
