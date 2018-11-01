@@ -14,9 +14,9 @@ The source code is on [GitHub](https://github.com/TechDotIO/php-template), pleas
 
 # Hands-on Demo
 
-@[Plus compliqué]({"stubs": ["vide.html"], "command": "/bin/bash run.sh exo1 ^h1--div--([.*ul--[li-id-(li-.*-){3,}].*])$"})
+@[Plus compliqué]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide ^h1--div--([.*ul--[li-id-(li-.*-){3,}].*])$"})
 
-@[<br>]({"stubs": ["vide.html"], "command": "/bin/bash run.sh exo1 br"})
+@[<br>]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide br"})
 
 
 Check out the markdown file [`welcome.md`]() to see how this exercise is injected into the template.
