@@ -5,5 +5,6 @@ php Test.php "output.html" $2
 
 cat output.html
 ls -al
+ls .. -al
 
 echo "TECHIO> open -s /project/target/ output.html"
