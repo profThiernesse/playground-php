@@ -14,9 +14,9 @@ The source code is on [GitHub](https://github.com/TechDotIO/php-template), pleas
 
 # Hands-on Demo
 
-@[Luke, how many stars there are in these galaxies?]({"stubs": ["exo1.php"], "command": "/bin/bash run.sh exo1 ^h1--div--([.*ul--[li-id-(li-.*-){3,}].*])$"})
+@[Luke, how many stars there are in these galaxies?]({"stubs": ["exo1.html"], "command": "/bin/bash run.sh exo1 ^h1--div--([.*ul--[li-id-(li-.*-){3,}].*])$"})
 
-@[Luke, how many stars there are in these galaxies?]({"stubs": ["exo1.php"], "command": "/bin/bash run.sh exo1 br"})
+@[Luke, how many stars there are in these galaxies?]({"stubs": ["exo1.html"], "command": "/bin/bash run.sh exo1 br"})
 
 
 Check out the markdown file [`welcome.md`]() to see how this exercise is injected into the template.
