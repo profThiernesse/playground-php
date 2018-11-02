@@ -5,7 +5,7 @@ This PHP template lets you get started quickly with a simple working example in 
 
 The source code is on [GitHub](https://github.com/TechDotIO/php-template), please feel free to come up with proposals to improve it.
 
-#Contexte
+# Contexte
 Pour les premiers exercices que vous réaliserez sur cette interface il ests uniquement demandez d'introduire le code contenu dans le `body`.
 Vous serez donc dans le contexte présenté ci-après :
 ```html
@@ -16,9 +16,7 @@ Vous serez donc dans le contexte présenté ci-après :
 		<title>Titre de page</title>
 	</head>
 	<body>
-		<?php
-			include($argv[1]);
-		?>
+		//Votre code se trouvera ici.
 	</body>
 </html>
 ```
