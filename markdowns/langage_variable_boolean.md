@@ -58,5 +58,5 @@ Les opérateurs de comparaison, comme leur nom l'indique, vous permettent de com
 
 Il existe un dernier opérateur un peu différent : 
 
-|-|-|-|
+|---------|-------|----------------------------------------------------------------------------------------------------------------------------------------|
 |$a <=> $b|Combiné|Un entier inférieur, égal ou supérieur à zéro lorsque $a est respectivement inférieur, égal, ou supérieur à $b. Disponible depuis PHP 7.|
