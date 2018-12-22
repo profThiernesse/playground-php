@@ -60,3 +60,33 @@ Il existe un dernier opérateur un peu différent :
 
 |---------|-------|----------------------------------------------------------------------------------------------------------------------------------------|
 |$a <=> $b|Combiné|Un entier inférieur, égal ou supérieur à zéro lorsque $a est respectivement inférieur, égal, ou supérieur à $b. Disponible depuis PHP 7.|
+
+```php runnable
+<?php	
+	var_dump(1<=>1);
+	var_dump(1<=>2);
+	var_dump(2<=>1);
+?>
+```
+
+## Fonctions
+
+Deux fonctions peuvent encore être utiles lors d'opération de test 
+- `isset()` - Détermine si une variable est définie et est différente de NULL
+- `empty()` - Détermine si une variable est vide. Les valeurs ci-dessous sont considérés comme étant vide :
+	- "" (une chaîne vide)
+	- 0 (0 en tant qu'entier)
+	- 0.0 (0 en tant que nombre à virgule flottante)
+	- "0" (0 en tant que chaîne de caractères)
+	- NULL
+	- FALSE
+	- array() (un tableau vide)
+	
+```php runnable
+<?php
+	var_dump(isset($a));
+	$a="";
+	var_dump(isset($a));
+	var_dump(empty($a));
+?>
+```
