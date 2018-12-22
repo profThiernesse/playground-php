@@ -9,7 +9,9 @@ plan:
 - title: Opérateurs logiques et de comparaisons
   statement: markdowns/langage_variable_boolean.md
 - title: Les tableaux
-  statement: markdowns/langage_variable_tableau.md  
+  statement: markdowns/langage_variable_tableau.md
+- title: Les alternatives
+  statement: markdowns/langage_alternative.md
 - title: PHP on Tech.io
   statement: markdowns/welcome.md
 projects:

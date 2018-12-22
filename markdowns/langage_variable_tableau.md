@@ -14,7 +14,7 @@
 ```php runnable
 <?php
 	$a = array("a" => "pomme", "b" => "banane");
-	$a = array("b" => "banane", "a" => "pomme");
+	$b = array("b" => "banane", "a" => "pomme");
 	
 	var_dump($a==$b);
 	var_dump($a===$b);
