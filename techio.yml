@@ -2,6 +2,8 @@ title: PHP Project
 plan:
 - title: Introduction
   statement: markdowns/intro.md
+- title: Le langage
+  statement: markdowns/langage.md
 - title: PHP on Tech.io
   statement: markdowns/welcome.md
 projects:
