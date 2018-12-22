@@ -6,9 +6,9 @@ plan:
   statement: markdowns/langage_base.md
 - title: Les variables
   statement: markdowns/langage_variable.md
-- title: Les variables - Opérateurs logiques et de comparaisons
+- title: Opérateurs logiques et de comparaisons
   statement: markdowns/langage_variable_boolean.md
-- title: Les variables - Opérateurs sur les tableaux
+- title: Les tableaux
   statement: markdowns/langage_variable_tableau.md  
 - title: PHP on Tech.io
   statement: markdowns/welcome.md
