@@ -41,7 +41,7 @@ C'est le type le plus simple. Un booléen représente une valeur de vérité. Il
 ```
 
 ## integer
-Un entier est un nombre appartenant à la classe $`\mathbb{Z} = {..., -2, -1, 0, 1, 2, ...}`$.
+Un entier est un nombre appartenant à la classe $`\mathbb{Z} = \{..., -2, -1, 0, 1, 2, ...\}`$.
 
 Les entiers peuvent être spécifiés en notation décimale (base 10), hexadécimale (base 16), octale (base 8), ou binaire (base 2). L'opérateur de négation peut être utilisé pour désigner un entier négatif.
 
