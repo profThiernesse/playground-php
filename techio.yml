@@ -1,5 +1,7 @@
 title: PHP Project
 plan:
+- title: Introduction
+  statement: markdowns/intro.md
 - title: PHP on Tech.io
   statement: markdowns/welcome.md
 projects:
