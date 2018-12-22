@@ -7,7 +7,7 @@ La signification d'une boucle `while` est très simple. PHP exécute l'instructi
 <?php
 	$i = 1; //Essayer avec $i qui vaut 10
 	while ($i < 10) {
-		echo $i . "\n";
+		echo $i . " ";
 		$i++;
 	}
 ?>
@@ -20,7 +20,7 @@ Les boucles `do while` ressemblent beaucoup aux boucles `while`, mais l'expressi
 <?php
 	$i = 1; //Essayer avec $i qui vaut 10
 	do {
-		echo $i . "\n";
+		echo $i . " ";
 		$i++;
 	} while ($i < 10);
 ?>
@@ -43,7 +43,7 @@ Au début de chaque itération, l'expression expr2 est évaluée. Si l'évaluati
 ```php runnable
 <?php
 	for ($i = 1; $i < 10; $i++) {
-		echo $i;
+		echo $i . " ";
 	}
 ?>
 ```
@@ -68,7 +68,7 @@ foreach (array_expression as $key => $value){
 }
 ```
 
-```php
+```php runnable
 <?php
 	$arr = array(1, 2, 3, 4);
 	foreach ($arr as $valeur) {
