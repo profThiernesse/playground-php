@@ -12,6 +12,8 @@ plan:
   statement: markdowns/langage_variable_tableau.md
 - title: Les alternatives
   statement: markdowns/langage_alternative.md
+- title: Les répétitions
+  statement: markdowns/langage_repetition.md
 - title: PHP on Tech.io
   statement: markdowns/welcome.md
 projects:
