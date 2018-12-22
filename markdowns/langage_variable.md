@@ -88,7 +88,6 @@ J'affiche $a
 	Et sur plusieurs lignes simplement avec indentation.
 
 SYMBOL;
-	echo "\n";
 
 //Nowdoc
 	echo <<<'SYMBOL'
@@ -98,7 +97,39 @@ SYMBOL;
 ?>
 ```
 
+## Les types composés
 
+Les types composés sont construit de la composition d'une ou plusieurs variables de type scalaire (boolean, integer, float et string) ou de type composé. 
+
+### array
+Un tableau en PHP est en fait une carte ordonnée. Une carte est un type qui associe des valeurs à des clés. On parlera de tableau associatif. Pour définir un tableau on utilise le mot-clé `array` ou les `[ ]`. Un page sera consacrée à l'usage des tableaux en PHP.
+
+```php runnable
+<?php
+//Avec un index numérique
+$table = array(1,2,3,4);
+var_dump($table);
+
+
+// Avec des clés associatives
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+var_dump($array['foo']);
+
+// depuis PHP 5.4
+$tableau = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+var_dump($tableau['bar']);
+
+?>
+```
+
+### object
+Il s'agit d'objet dans le cadre de la programmation orientée objet qui ne fait pas partie de ce cours.
 
 # Les variables dynamiques
 
