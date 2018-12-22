@@ -70,7 +70,7 @@ foreach (array_expression as $key => $value){
 
 ```php runnable
 <?php
-	$arr = array(1, 2, 3, 4);
+	$arr = array(1, 2, 3, 4); //Ajouter des éléments au tableau
 	foreach ($arr as $valeur) {
 		echo $valeur . "\n";
 	}
