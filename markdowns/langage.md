@@ -4,7 +4,7 @@ Le PHP doit être délimité par les balises ouvrante `<?php` et fermante `?>`. 
 
 ```php runnable
 <p>Ceci sera ignoré par PHP et affiché au navigateur.</p>
-<?php echo 'Alors que ceci sera analysé par PHP.\n'; ?>
+<?php echo "Alors que ceci sera analysé par PHP.\n"; ?>
 <p>Ceci sera aussi ignoré par PHP et affiché au navigateur.</p>
 ```
 
@@ -14,10 +14,10 @@ PHP supporte les commentaires de type C, C++ et Shell Unix (aussi appelé style 
 
 ```php runnable
 <?php
-    echo 'Ceci est un test\n'; // Ceci est un commentaire sur une seule ligne, style c++
+    echo "Ceci est un test\n"; // Ceci est un commentaire sur une seule ligne, style c++
     /* Ceci est un commentaire sur
        plusieurs lignes */
-    echo 'Ceci est un autre test\n';
-    echo 'Et un test final\n'; # Ceci est un commentaire style shell sur une seule ligne
+    echo "Ceci est un autre test\n";
+    echo "Et un test final\n"; # Ceci est un commentaire style shell sur une seule ligne
 ?>
 ```
