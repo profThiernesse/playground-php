@@ -33,3 +33,16 @@ Dans le cas de PHP comme langage serveur, les combinaisons les plus courantes so
 PHP appartient à la grande famille des descendants du C, dont la syntaxe est très proche. En particulier, sa syntaxe et sa construction ressemblent à celles des langages Java et Perl, à ceci près que du code PHP peut facilement être mélangé avec du code HTML au sein d'un fichier PHP.
 
 Dans la suite, nous allons découvrir la syntaxe du `PHP`. Celle-ci est très proche de la syntaxe du `C`. Il existe cependant quelques différences. Le `PHP` est un langage de plus haut niveau que le `C` il permet donc de réaliser certaines manipulations plus simplement qu'en `C`.
+
+```PHP
+<html>
+    <head>
+        <title>Exemple</title>
+    </head>
+    <body>
+        <?php 
+          echo "C'est un script PHP!"; 
+        ?>
+    </body>
+</html>
+```
