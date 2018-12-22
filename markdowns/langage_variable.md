@@ -141,7 +141,7 @@ Il y a deux opérateurs de chaînes de caractères string. Le premier est l'opé
 ```php runnable
 <?php
 	$a = "Hello";
-	echo $a . " world";
+	echo $a . " world\n";
 	
 	$a .= " world !";
 	echo $a;
@@ -237,6 +237,6 @@ Une constante est un identifiant (un nom) qui représente une valeur simple. Com
 ```php runnable
 <?php
 	define("FOO","Hello");
-	echo "FOO World";
+	echo FOO . "World";
 ?>
 ```
