@@ -6,7 +6,7 @@ plan:
   statement: markdowns/langage_base.md
 - title: Les variables
   statement: markdowns/langage_variable.md
-- title: Les variables - Opérateurs booléens et de comparaisons
+- title: Les variables - Opérateurs logiques et de comparaisons
   statement: markdowns/langage_variable_boolean.md
 - title: Les variables - Opérateurs sur les tableaux
   statement: markdowns/langage_variable_tableau.md  

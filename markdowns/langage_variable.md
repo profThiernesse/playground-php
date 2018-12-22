@@ -73,6 +73,7 @@ $c = 7E-10;
 ### Opérateurs
 
 Les opérateurs mathématiques du PHP sont repris dans le tableau ci-après.
+
 |Exemple|Nom|Résultat|
 |-------|---|--------|
 |-$a|Négation|Opposé de $a.|
