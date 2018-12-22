@@ -1,5 +1,9 @@
 # Opérateurs logiques et de comparaison
 
+Le plus souvent les opérateurs logiques et de comparaison sont utilisés en tant qu'expression booléennes simple ou complexe dans les conditions de boucle ou les alternatives.
+
+## Opérateurs logiques
+
 Le tableau ci-dessous reprend la liste de opérateurs logiques par ordre de priorité.
 
 |Exemple|Nom|Résultat|
@@ -8,8 +12,8 @@ Le tableau ci-dessous reprend la liste de opérateurs logiques par ordre de prio
 |$a && $b|And (Et)|TRUE si $a ET $b sont TRUE.|
 |$a \|\| $b|Or (Ou)|TRUE si $a OU $b est TRUE.|
 |$a and $b|And (Et)|TRUE si $a ET $b valent TRUE.|
-|$a or $b|Or (Ou)|TRUE si $a OU $b valent TRUE.|
 |$a xor $b|XOR|TRUE si $a OU $b est TRUE, mais pas les deux en même temps.|
+|$a or $b|Or (Ou)|TRUE si $a OU $b valent TRUE.|
 
 ```php runnable
 <?php
@@ -20,7 +24,38 @@ Le tableau ci-dessous reprend la liste de opérateurs logiques par ordre de prio
 	var_dump($a or $b);
 	var_dump($a xor $a);
 	
+	//Les réponses des deux lignes ci-après sont différentes à cause de la priorité des opérateurs.
 	var_dump($a || $b and $b);
 	var_dump($a || $b && $b);
 ?>
 ```
+
+## Opérateurs de comparaisons
+
+Les opérateurs de comparaison, comme leur nom l'indique, vous permettent de comparer deux valeurs.
+
+|Exemple|Nom|Résultat|
+|-------|---|--------|
+|$a == $b|Egal|TRUE si $a est égal à $b après le transtypage.|
+|$a === $b|Identique|TRUE si $a est égal à $b et qu'ils sont de même type.|
+|$a != $b|Différent|TRUE si $a est différent de $b après le transtypage.|
+|$a <> $b|Différent|TRUE si $a est différent de $b après le transtypage.|
+|$a !== $b|Différent|TRUE si $a est différent de $b ou bien s'ils ne sont pas du même type.|
+|$a < $b|Plus petit|TRUE si $a est strictement plus petit que $b.|
+|$a > $b|Plus grand|TRUE si $a est strictement plus grand que $b.|
+|$a <= $b|Inférieur ou égal|TRUE si $a est plus petit ou égal à $b.|
+|$a >= $b|Supérieur ou égal|TRUE si $a est plus grand ou égal à $b.|
+
+```php runnable
+<?php
+	$a=1;
+	$b='1';
+	
+	var_dump($a==$b);
+	var_dump($a===$b);
+?>
+```
+
+Il existe un dernier opérateur un peu différent : 
+
+|$a <=> $b|Combiné|Un entier inférieur, égal ou supérieur à zéro lorsque $a est respectivement inférieur, égal, ou supérieur à $b. Disponible depuis PHP 7.|
