@@ -48,3 +48,5 @@ L'exemple ci-dessous présente un simple script PHP intégré dans une page HTML
     </body>
 </html>
 ```
+
+`echo` Affiche une chaîne de caractères.

@@ -44,10 +44,58 @@ C'est le type le plus simple. Un booléen représente une valeur de vérité. Il
 Un entier est un nombre appartenant à la classe $`\mathbb{Z} = \{..., -2, -1, 0, 1, 2, ...\}`$.
 
 Les entiers peuvent être spécifiés en notation décimale (base 10), hexadécimale (base 16), octale (base 8), ou binaire (base 2). L'opérateur de négation peut être utilisé pour désigner un entier négatif.
+```php 
+<?php
+$a = 1234; // un nombre décimal
+$a = -123; // un nombre négatif
+$a = 0123; // un nombre octal (équivalent à 83 en décimal)
+$a = 0x1A; // un nombre héxadecimal (équivalent à 26 en décimal)
+$a = 0b11111111; // un nombre binaire (équivalent à 255 en decimal)
+?>
+```
 
 ## float
+Les nombres décimaux, (aussi connus comme nombres à virgule flottante, "floats", "doubles", ou "real numbers") peuvent être spécifiés en utilisant les syntaxes suivantes :
+```php 
+<?php
+$a = 1.234;
+$b = 1.2e3;
+$c = 7E-10;
+?>
+```
 
 ## string
+Une chaîne de caractères est une série de caractères.
+Une chaîne de caractères littérale peut être spécifiée de 4 façons différentes :
+- Entourée de guillemets simples `'`. Le contenu de la chaîne n'est pas analysé. 
+- Entourée de guillemets doubles `"`. Le contenu de la chaîne est analysé, les variables sont remplacées par leur valeur.
+- Syntaxe Heredoc qui se comporte comme les guillemets doubles.
+- Syntaxe Nowdoc  qui se comporte comme les guillemets simples.
+
+```php runnable
+<?php
+	$a = "Hello World";
+
+	echo 'J\'affiche : $a';
+	echo "\n";
+
+	echo "J\'affiche : $a";
+	echo "\n";
+	
+	echo <<<SYMBOL
+	J'affiche $a
+	Et sur plusieurs lignes simplement.
+SYMBOL;
+	echo "\n";
+	
+	echo <<<'SYMBOL'
+	J'affiche $a
+	Et sur plusieurs lignes simplement.
+SYMBOL;
+?>
+```
+
+
 
 # Les variables dynamiques
 
