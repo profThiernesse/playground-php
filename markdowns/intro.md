@@ -34,7 +34,7 @@ PHP appartient à la grande famille des descendants du C, dont la syntaxe est tr
 
 Dans la suite, nous allons découvrir la syntaxe du `PHP`. Celle-ci est très proche de la syntaxe du `C`. Il existe cependant quelques différences. Le `PHP` est un langage de plus haut niveau que le `C` il permet donc de réaliser certaines manipulations plus simplement qu'en `C`.
 
-```PHP runnable
+```php runnable
 <html>
     <head>
         <title>Exemple</title>
