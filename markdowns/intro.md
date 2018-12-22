@@ -1,5 +1,5 @@
 # Introduction
-`PHP: Hypertext Preprocessor`, plus connu sous son sigle `PHP`, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP. PHP est un langage impératif orienté objet.
+`PHP: Hypertext Preprocessor`, plus connu sous son sigle `PHP`, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP. PHP est un langage impératif orienté objet. Il s'agit d'un langage de script interprété côté serveur.
 
 Il est considéré comme une des bases de la création de sites web dits dynamiques mais également des applications web.
 PHP a permis de créer un grand nombre de sites web célèbres, comme Facebook, Wikipédia, etc
