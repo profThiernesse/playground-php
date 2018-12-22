@@ -79,18 +79,21 @@ Une chaîne de caractères littérale peut être spécifiée de 4 façons diffé
 	echo 'J\'affiche : $a';
 	echo "\n";
 
-	echo "J\'affiche : $a";
-	echo "\n";
+	echo "J'affiche : $a\n";
+
 	
+//Heredoc
 	echo <<<SYMBOL
-	J'affiche $a
-	Et sur plusieurs lignes simplement.
+J'affiche $a
+	Et sur plusieurs lignes simplement avec indentation.
+
 SYMBOL;
 	echo "\n";
-	
+
+//Nowdoc
 	echo <<<'SYMBOL'
-	J'affiche $a
-	Et sur plusieurs lignes simplement.
+J'affiche $a
+Et sur plusieurs lignes simplement avec indentation.
 SYMBOL;
 ?>
 ```
