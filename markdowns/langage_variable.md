@@ -107,7 +107,7 @@ Un tableau en PHP est en fait une carte ordonnée. Une carte est un type qui ass
 ```php runnable
 <?php
 //Avec un index numérique
-$table = array(1,2,3,4);
+$table = array(1,2,3,4); //Affiche tout le tableau grâce au var_dump
 var_dump($table);
 
 
@@ -116,15 +116,14 @@ $array = array(
     "foo" => "bar",
     "bar" => "foo",
 );
-var_dump($array['foo']);
+var_dump($array['foo']); //Affiche l'entrée associée à la clé 'foo'
 
 // depuis PHP 5.4
 $tableau = [
     "foo" => "bar",
     "bar" => "foo",
 ];
-var_dump($tableau['bar']);
-
+var_dump($tableau['bar']); //Affiche l'entrée associée à la clé 'bar'
 ?>
 ```
 
