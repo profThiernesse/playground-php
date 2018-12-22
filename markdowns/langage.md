@@ -21,3 +21,12 @@ PHP supporte les commentaires de type C, C++ et Shell Unix (aussi appelé style 
     echo "Et un test final\n"; # Ceci est un commentaire style shell sur une seule ligne
 ?>
 ```
+
+## Les instructions
+
+Comme mentionné précédemment la syntaxe et les instructions de contrôle du PHP sont largement inspirées du C. Les deux différences les plus notables sont 
+- la syntaxe des variables. Le langage est non-typé, il ne faut donc pac déclarer les variables. Afin de pouvoir les identifier malgré tout les variables sont toujours précédées du symbole `$`.
+- la non-présence d'un fonction `main` dans le code.
+- le paradigme événementiel plutôt que séquentiel. L'intégralité du script est exécutée d'un seul coup sans arrêt.
+	- Le PHP va réagir à un événement, envoyer une requête au serveur via le navigateur et recevoir un réponse.
+	- Le C exécute tour à tour chaque ligne de code en marquant un arrêt sur certaines instructions nécessitant l'action de l'utilisateur.
