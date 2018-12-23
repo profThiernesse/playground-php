@@ -91,6 +91,27 @@ function foo($arg_1, $arg_2, /* ..., */ $arg_n)
 ?>
 ```
 
+## Valeur par défaut des arguments
+
+Vous pouvez définir des valeurs par défaut pour les arguments de type scalaire.
+
+```php runnable
+<?php
+
+	WhatToDoWithBeer("Servir","une Leffe");
+	WhatToDoWithBeer("Affoner");
+	WhatToDoWithBeer(NULL,"une Maes");
+	WhatToDoWithBeer();
+	
+	function WhatToDoWithBeer($do="Boire",$beer="une Jupiler") {
+		echo $do . " " . $beer . "\n";
+	}
+?>
+```
+
+Les arguments avec une valeur par défaut ne sont plus obligatoires. Il faut cependant respecter l'ordre de définition des arguments. Si les arguments non-défini sont suivis d'autres arguments il faut les remplacer par la valeur NULL.
+
+
 ## Fonctions variables
 
 Comme pour les variables, PHP supporte le concept de fonctions variables. Cela signifie que si le nom d'une variable est suivi de parenthèses, PHP recherchera une fonction de même nom, et essaiera de l'exécuter.
