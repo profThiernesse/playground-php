@@ -133,7 +133,7 @@ Le point précédent nous amène à la possibilité de définir un nombre variab
 Vous pouvez spécifier des arguments classiques avant le mot clé `...`. Dans ce cas, seuls les arguments finaux qui ne correspondent pas à un argument classique seront ajoutés au tableau généré par `...`.
 
 ```php runnable
-
+<?php
 	fratrie("frère et soeur");
 	fratrie("frère", "Antoine");
 	fratrie("soeur", "Marie", "Claire", "Lucie");
@@ -150,7 +150,7 @@ Vous pouvez spécifier des arguments classiques avant le mot clé `...`. Dans ce
 			echo $phrase . ".\n";
 		}
 	}
-
+?>
 ```
 
 ## Fonctions variables
