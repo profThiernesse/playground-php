@@ -65,12 +65,12 @@ Si vous voulez qu'un argument soit toujours passé par référence, vous pouvez 
 	echo "var1=$var1\n";
 	echo "var2=$var2\n";
 	
-	echange(&$var1,&$var2);
+	echange($var1,$var2);
 	
 	echo "var1=$var1\n";
 	echo "var2=$var2\n";
 	
-	function echange($a,$b) {
+	function echange(&$a,&$b) {
 		$tmp=$a;
 		$a=$b;
 		$b=$tmp;
