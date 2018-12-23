@@ -139,10 +139,10 @@ Vous pouvez spécifier des arguments classiques avant le mot clé `...`. Dans ce
 	fratrie("soeur", "Marie", "Claire", "Lucie");
 
 	function fratrie($type,...$noms) {
-		echo "J'ai " . count($noms) . " " . $type . ".\n";
+		echo "J'ai " . count($noms) . " " . $type . ". ";
 		if (count($noms)>0) {
-			$sp = (count($noms)>1) "les noms" : "le nom"
-			$phrase = "Voici $sp :";
+			$sp = (count($noms)>1) ? "les noms" : "le nom";
+			$phrase = "Voici $sp : ";
 			foreach($noms as $key => $nom) {
 				$phrase .= $nom;
 				if ($key != count($noms)-1) $phrase .= ", ";
