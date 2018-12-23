@@ -110,8 +110,48 @@ Vous pouvez définir des valeurs par défaut pour les arguments de type scalaire
 ?>
 ```
 
-Les arguments avec une valeur par défaut ne sont plus obligatoires. Il faut cependant respecter l'ordre de définition des arguments. Si les arguments non-défini sont suivis d'autres arguments il faut les remplacer par la valeur NULL.
+Les arguments avec une valeur par défaut ne sont plus obligatoires. Il faut cependant que les arguments non-défini soient les derniers paramètres de la fonction pour ne pas devoir les renseigner.
 
+### Nombre d'arguments variable
+
+Le point précédent nous amène à la possibilité de définir un nombre variable d'arguments pour une fonction. PHP supporte les fonctions à nombre d'arguments variable. Ceci est implémenté en utilisant le mot clé `...` à partir de PHP 5.6. Les arguments seront passés dans la variable fournie sous forme d'un tableau 
+
+```php runnable
+<?php
+	echo sum(1, 2, 3, 4);
+
+	function sum(...$numbers) {
+		$acc = 0;
+		foreach ($numbers as $n) {
+			$acc += $n;
+		}
+		return $acc;
+	}
+?>
+```
+
+Vous pouvez spécifier des arguments classiques avant le mot clé `...`. Dans ce cas, seuls les arguments finaux qui ne correspondent pas à un argument classique seront ajoutés au tableau généré par `...`.
+
+```php runnable
+
+	fratrie("frère et soeur");
+	fratrie("frère", "Antoine");
+	fratrie("soeur", "Marie", "Claire", "Lucie");
+
+	function fratrie($type,...$noms) {
+		echo "J'ai " . count($noms) . " " . $type . ".\n";
+		if (count($noms)>0) {
+			$sp = (count($noms)>1) "les noms" : "le nom"
+			$phrase = "Voici $sp :";
+			foreach($noms as $key => $nom) {
+				$phrase .= $nom;
+				if ($key != count($noms)-1) $phrase .= ", ";
+			}
+			echo $phrase . ".\n";
+		}
+	}
+
+```
 
 ## Fonctions variables
 
