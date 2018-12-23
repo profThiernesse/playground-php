@@ -147,8 +147,9 @@ Vous pouvez spécifier des arguments classiques avant le mot clé `...`. Dans ce
 				$phrase .= $nom;
 				if ($key != count($noms)-1) $phrase .= ", ";
 			}
-			echo $phrase . ".\n";
+			echo $phrase . ".";
 		}
+		echo "\n";
 	}
 ?>
 ```
