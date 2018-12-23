@@ -82,6 +82,7 @@ Si vous voulez qu'un argument soit toujours passé par référence, vous pouvez 
 
 Les valeurs sont renvoyées en utilisant une instruction de retour optionnelle. Tous les types de variables peuvent être renvoyés, tableaux et objets compris. Cela fait que la fonction finit son exécution immédiatement et passe le contrôle à la ligne appelante.
 
+```php runnable
 <?php
 function foo($arg_1, $arg_2, /* ..., */ $arg_n)
 {
