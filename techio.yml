@@ -16,6 +16,8 @@ plan:
   statement: markdowns/langage_repetition.md
 - title: Les fonctions
   statement: markdowns/langage_fonction.md
+- title: Références
+  statement: markdowns/reference.md
 projects:
   first-project:
     root: /php-template
