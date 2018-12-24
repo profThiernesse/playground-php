@@ -1,7 +1,3 @@
-# Table of Contents
-  * [Chapter 1](#chapter-1)
-  * [Chapter 2](#syntaxe)
-  
 # Introduction
 `PHP: Hypertext Preprocessor`, plus connu sous son sigle `PHP`, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP. PHP est un langage impératif orienté objet. Il s'agit d'un langage de script interprété côté serveur.
 
@@ -33,7 +29,7 @@ Dans le cas de PHP comme langage serveur, les combinaisons les plus courantes so
 4. L’interprétation de la page PHP produit une page HTML de résultat fournie au serveur.
 5. Le serveur Web renvoie ce document, cette page, au client pour affichage.
 
-##  <a name="syntaxe"></a>La syntaxe
+## La syntaxe
 PHP appartient à la grande famille des descendants du C, dont la syntaxe est très proche. En particulier, sa syntaxe et sa construction ressemblent à celles des langages Java et Perl, à ceci près que du code PHP peut facilement être mélangé avec du code HTML au sein d'un fichier PHP.
 
 Dans la suite, nous allons découvrir la syntaxe du `PHP`. Celle-ci est très proche de la syntaxe du `C`. Il existe cependant quelques différences. Le `PHP` est un langage de plus haut niveau que le `C` il permet donc de réaliser certaines manipulations plus simplement qu'en `C`.
