@@ -16,8 +16,6 @@ plan:
   statement: markdowns/langage_repetition.md
 - title: Les fonctions
   statement: markdowns/langage_fonction.md
-- title: PHP on Tech.io
-  statement: markdowns/welcome.md
 projects:
   first-project:
     root: /php-template
