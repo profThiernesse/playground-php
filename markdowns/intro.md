@@ -1,6 +1,6 @@
 # Table of Contents
   * [Chapter 1](#chapter-1)
-  * [Chapter 2](#La syntaxe)
+  * [Chapter 2](#markdown-header-la-syntaxe)
   
 # Introduction
 `PHP: Hypertext Preprocessor`, plus connu sous son sigle `PHP`, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP. PHP est un langage impératif orienté objet. Il s'agit d'un langage de script interprété côté serveur.
