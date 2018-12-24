@@ -1,5 +1,27 @@
 # Les tableaux
 
+Un tableau en PHP est en fait une carte ordonnée. Une carte est un type qui associe des valeurs à des clés. On parlera de tableau associatif. Pour définir un tableau on utilise le mot-clé `array` ou les `[ ]`. 
+
+Les clés dans un tableau peuvent être de deux types :
+1. numérique ;
+2. chaîne de caractères.
+
+Un même tableau peut utiliser à la fois des clés numériques et des clés chaînes de caractères.
+
+```php runnable
+<?php
+	
+	$tab1 = array(1, 2, 3);
+	$tab2 = array("un" => 1, "deux" => 2, "trois" => 3);
+	$tab3 = array(1, "deux" => 2, 3);
+	
+	var_dump(tab1);
+	var_dump(tab2);
+	var_dump(tab3);
+
+?>
+```
+
 ## Opérateurs
 
 |Exemple|Nom|Résultat|
