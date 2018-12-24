@@ -64,7 +64,8 @@ Comme précisé ci-dessus, un tableau peut contenir des types scalaires et/ou de
 		array(1,2,3),
 		"ma_table" => array("ce","que","je","veux"),
 		"clé" => array(1,"deux","trois", 7 => 7),
-		array("chaine",true)
+		array("chaine",true),
+		"un simple scalaire"
 	);
 		
 	var_dump($tab);
