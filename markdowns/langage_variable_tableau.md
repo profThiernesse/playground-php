@@ -22,6 +22,57 @@ Un même tableau peut utiliser à la fois des clés numériques et des clés cha
 ?>
 ```
 
+L'ordre dans lequel sont rangée les clés numériques ne dépend pas de la valeur numérique mais de l'ordre de définition. De même toutes les valeurs de clés numérique de doivent pas obligatoirement existées.
+
+```php runnable
+<?php
+	$tab[0]=1;
+	$tab[3]=5;
+	$tab[7]=3;
+	$tab[1]=7;
+	$tab[5]=1;
+	
+	var_dump($tab);
+?>
+```
+
+## Les types dans les tableaux
+
+Les tableaux sont construit de la composition d'une ou plusieurs variables de type scalaire (boolean, integer, float et string) ou de type composé. 
+
+Un grande différence avec un langage comme le `C` est qu'un tableau peux contenir simultanément différents types de variables.
+
+```php runnable
+<?php
+	
+	$tab["chaine"] = "Bonjour";
+	$tab["booleen"] = true;
+	$tab["entier"] = 5;
+	$tab["decimal"] = 5.6;
+	
+	var_dump($tab);
+?>
+```
+
+## Tableaux multidimensions
+
+Comme précisé ci-dessus, un tableau peut contenir des types scalaires et/ou des types composés. Un tableau multidimensionnel est un tableau contenant d'autres tableaux. Contrairement à un langage comme le `C`, le tableau n'a pas nécessairement la même dimension sur chacune de ses entrées. Cela vient du fait que chaque entrée peut posséder des types différents.
+
+```php runnable
+<?php
+	$tab = array(
+		array(1,2,3),
+		"ma_table" => array("ce","que","je","veux"),
+		"clé" => array(1,"deux","trois", 7 => 7),
+		array("chaine",true)
+	);
+		
+	var_dump($tab);
+?>
+```
+
+
+
 ## Opérateurs
 
 |Exemple|Nom|Résultat|
