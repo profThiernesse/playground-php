@@ -15,9 +15,9 @@ Un même tableau peut utiliser à la fois des clés numériques et des clés cha
 	$tab2 = array("un" => 1, "deux" => 2, "trois" => 3);
 	$tab3 = array(1, "deux" => 2, 3);
 	
-	var_dump(tab1);
-	var_dump(tab2);
-	var_dump(tab3);
+	var_dump($tab1);
+	var_dump($tab2);
+	var_dump($tab3);
 
 ?>
 ```
