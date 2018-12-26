@@ -1,6 +1,6 @@
 # Les tableaux
 
-Un tableau en PHP est en fait une carte ordonnée. Une carte est un type qui associe des valeurs à des clés. On parlera de tableau associatif. Pour définir un tableau on utilise le mot-clé `array` ou les `[ ]`. 
+Un tableau en PHP est en fait une carte ordonnée. Une carte est un type qui associe des valeurs à des clés. On parlera de tableau associatif. Pour définir un tableau, on utilise le mot-clé `array` ou les `[ ]`. 
 
 Les clés dans un tableau peuvent être de deux types :
 1. numérique ;
@@ -22,7 +22,7 @@ Un même tableau peut utiliser à la fois des clés numériques et des clés cha
 ?>
 ```
 
-L'ordre dans lequel sont rangée les clés numériques ne dépend pas de la valeur numérique mais de l'ordre de définition. De même toutes les valeurs de clés numérique de doivent pas obligatoirement existées.
+L'ordre dans lequel sont rangées les clés numériques ne dépend pas de la valeur numérique mais de l'ordre de définition. De même, toutes les valeurs de clés numériques ne doivent pas obligatoirement exister.
 
 ```php runnable
 <?php
@@ -38,9 +38,9 @@ L'ordre dans lequel sont rangée les clés numériques ne dépend pas de la vale
 
 ## Les types dans les tableaux
 
-Les tableaux sont construit de la composition d'une ou plusieurs variables de type scalaire (boolean, integer, float et string) ou de type composé. 
+Les tableaux sont construits de la composition d'une ou plusieurs variables de type scalaire (boolean, integer, float et string) ou de type composé. 
 
-Un grande différence avec un langage comme le `C` est qu'un tableau peux contenir simultanément différents types de variables.
+Une grande différence avec un langage comme le `C` est qu'un tableau peut contenir simultanément différents types de variables.
 
 ```php runnable
 <?php

@@ -1,6 +1,6 @@
 # Opérateurs logiques et de comparaison
 
-Le plus souvent les opérateurs logiques et de comparaison sont utilisés en tant qu'expression booléennes simple ou complexe dans les conditions de boucle ou les alternatives.
+Le plus souvent les opérateurs logiques et de comparaison sont utilisés en tant qu'expression booléenne simple ou complexe dans les conditions de boucle ou les alternatives.
 
 ## Opérateurs logiques
 
@@ -30,7 +30,7 @@ Le tableau ci-dessous reprend la liste de opérateurs logiques par ordre de prio
 ?>
 ```
 
-## Opérateurs de comparaisons
+## Opérateurs de comparaison
 
 Les opérateurs de comparaison, comme leur nom l'indique, vous permettent de comparer deux valeurs.
 
@@ -73,7 +73,7 @@ Il existe un dernier opérateur un peu différent :
 
 Deux fonctions peuvent encore être utiles lors d'opération de test 
 - `isset()` - Détermine si une variable est définie et est différente de NULL
-- `empty()` - Détermine si une variable est vide. Les valeurs ci-dessous sont considérés comme étant vide :
+- `empty()` - Détermine si une variable est vide. Les valeurs ci-dessous sont considérées comme étant vides :
 	- "" (une chaîne vide)
 	- 0 (0 en tant qu'entier)
 	- 0.0 (0 en tant que nombre à virgule flottante)

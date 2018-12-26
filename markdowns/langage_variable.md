@@ -61,7 +61,7 @@ $a = 0b11111111; // un nombre binaire (équivalent à 255 en decimal)
 ```
 
 ### float
-Les nombres décimaux, (aussi connus comme nombres à virgule flottante, "floats", "doubles", ou "real numbers") peuvent être spécifiés en utilisant les syntaxes suivantes :
+Les nombres décimaux (aussi connus comme nombres à virgule flottante, "floats", "doubles", ou "real numbers") peuvent être spécifiés en utilisant les syntaxes suivantes :
 ```php 
 <?php
 $a = 1.234;
@@ -84,7 +84,7 @@ Les opérateurs mathématiques du PHP sont repris dans le tableau ci-après.
 |$a % $b|Modulus|Reste de $a divisé par $b.|
 |$a ** $b|Exponentielle|Résultat de l'élévation de $a à la puissance $b.|
 
-L'opérateur de division `/` retourne une valeur à virgule flottante. Pour la division entière il faut utiliser la fonction `intdiv`.
+L'opérateur de division `/` retourne une valeur à virgule flottante. Pour la division entière, il faut utiliser la fonction `intdiv`.
 
 ```php runnable
 <?php
@@ -151,7 +151,7 @@ Il y a deux opérateurs de chaînes de caractères string. Le premier est l'opé
 
 ## Les types composés
 
-Les types composés sont construit de la composition d'une ou plusieurs variables de type scalaire (boolean, integer, float et string) ou de type composé. 
+Les types composés sont construits de la composition d'une ou plusieurs variables de type scalaire (boolean, integer, float et string) ou de type composé. 
 
 ### array
 Un tableau en PHP est en fait une carte ordonnée. Une carte est un type qui associe des valeurs à des clés. On parlera de tableau associatif. Pour définir un tableau on utilise le mot-clé `array` ou les `[ ]`. 
@@ -192,7 +192,7 @@ Il s'agit d'objet dans le cadre de la programmation orientée objet qui ne fait 
 Une ressource est une variable spéciale, contenant une référence vers une ressource externe. Les ressources sont créées et utilisées par des fonctions spéciales.
 
 Une ressource représente un fichier ouvert, une connexion à une base de données, une image, etc.
-Lors de la connexion à une base de données, nous manipulerons une resource. Il faudra donc la manipuler avec des fonctions spécifiques.
+Lors de la connexion à une base de données, nous manipulerons une ressource. Il faudra donc la manipuler avec des fonctions spécifiques.
 
 ### NULL
 
@@ -229,7 +229,7 @@ Une variable dynamique prend la valeur d'une variable et l'utilise comme nom d'u
 	echo "$a ${$a}";
 ?>
 ``` 
-Afin de pouvoir utiliser les variables dynamiques avec les tableaux, vous avez à résoudre un problème ambigu. Si vous écrivez $$a[1], l'analyseur a besoin de savoir si vous parler de la variable qui a pour nom $a[1] ou bien si vous voulez l'index [1] de la variable $$a. La syntaxe pour résoudre cette ambiguïté est la suivante : ${$a[1]} pour le premier cas et ${$a}[1] pour le deuxième.
+Afin de pouvoir utiliser les variables dynamiques avec les tableaux, vous avez à résoudre un problème ambigu. Si vous écrivez $$a[1], l'analyseur a besoin de savoir si vous parlez de la variable qui a pour nom $a[1] ou bien si vous voulez l'index [1] de la variable $$a. La syntaxe pour résoudre cette ambiguïté est la suivante : ${$a[1]} pour le premier cas et ${$a}[1] pour le deuxième.
 
 # Les constantes
 

@@ -74,9 +74,9 @@ L'instruction `switch` équivaut à une série d'instructions `if`. En de nombre
 ?>
 ```
 
-Le `break` est nécessaire pour arrêter l'exécution à la fin du `case`. Sans cela les instructions du `case` suivant seront également exécuter.
+Le `break` est nécessaire pour arrêter l'exécution à la fin du `case`. Sans cela, les instructions du `case` suivant seront également exécutées.
 
-Le `default` est utiliser si aucune évalution de `case` n'était vraie.
+Le `default` est utilisé si aucune évalution de `case` n'était vraie.
 
 
 # Alternative ternaire

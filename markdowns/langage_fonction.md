@@ -1,6 +1,6 @@
 # Les fonctions
 
-En PHP, les fonctions n'ont pas besoin d'être définies avant d'être utilisées. Les noms de fonctions sont insensibles à la casse, et il est généralement admis que les fonctions doivent être appelées avec le nom utilisé dans leur déclaration, y compris la casse.
+En PHP, les fonctions n'ont pas besoin d'être définies avant d'être utilisées. Les noms de fonction sont insensibles à la casse, et il est généralement admis que les fonctions doivent être appelées avec le nom utilisé dans leur déclaration, y compris la casse.
 
 Une fonction peut être définie en utilisant la syntaxe suivante :
 
@@ -110,7 +110,7 @@ Vous pouvez définir des valeurs par défaut pour les arguments de type scalaire
 ?>
 ```
 
-Les arguments avec une valeur par défaut ne sont plus obligatoires. Il faut cependant que les arguments non-défini soient les derniers paramètres de la fonction pour ne pas devoir les renseigner.
+Les arguments avec une valeur par défaut ne sont plus obligatoires. Il faut cependant que les arguments non-définis soient les derniers paramètres de la fonction pour ne pas devoir les renseigner.
 
 ### Nombre d'arguments variable
 

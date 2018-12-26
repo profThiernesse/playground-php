@@ -28,7 +28,7 @@ Les boucles `do while` ressemblent beaucoup aux boucles `while`, mais l'expressi
 
 # `for`
 
-Les boucles `for` sont généralement utilisées quand le nombre d'itération est connu à l'avance.
+Les boucles `for` sont généralement utilisées quand le nombre d'itérations est connu à l'avance.
 
 ```php
 for (expr1; expr2; expr3)
