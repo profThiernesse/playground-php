@@ -4,7 +4,7 @@ Le plus souvent les opérateurs logiques et de comparaison sont utilisés en tan
 
 ## Opérateurs logiques
 
-Le tableau ci-dessous reprend la liste de opérateurs logiques par ordre de priorité.
+Le tableau ci-dessous reprend la liste des opérateurs logiques par ordre de priorité.
 
 |Exemple|Nom|Résultat|
 |-------|---|--------|
@@ -71,8 +71,8 @@ Il existe un dernier opérateur un peu différent :
 
 ## Fonctions
 
-Deux fonctions peuvent encore être utiles lors d'opération de test 
-- `isset()` - Détermine si une variable est définie et est différente de NULL
+Deux fonctions peuvent encore être utiles lors d'opérations de test :
+- `isset()` - Détermine si une variable est définie et est différente de NULL.
 - `empty()` - Détermine si une variable est vide. Les valeurs ci-dessous sont considérées comme étant vides :
 	- "" (une chaîne vide)
 	- 0 (0 en tant qu'entier)
