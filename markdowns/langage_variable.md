@@ -22,14 +22,14 @@ Le type d'une variable n'est généralement pas défini par le programmeur ; il 
 	echo gettype($a_str) ."\n";  // affiche :  string
 
 	var_dump($an_int);
-	var_dump($an_str2);
+	var_dump($a_str2);
 ?>
 ```
 
 - `var_dump()` : Affiche les informations structurées d'une variable, y compris son type et sa valeur. Les tableaux et les objets sont explorés récursivement, avec des indentations, pour mettre en valeur leur structure.
 - `gettype()` : Retourne le type d'une variable.
 
-# Les types de variable
+# Les types de variables
 Bien que le PHP soit un langage non-typé, des types sont bien définis pour les variables.
 
 ## boolean
@@ -40,11 +40,11 @@ C'est le type le plus simple. Un booléen représente une valeur de vérité. Il
 ?>
 ```
 
-*Un page sera consacrée aux opérateurs booléen et de comparaison.*
+*Une page sera consacrée aux opérateurs booléen et de comparaison.*
 
 ## number
 
-Number est un pseudo type indiquant qu'il s'agit aussi bien d'un entier que d'un nombre décimal.
+Number est un pseudo type indiquant qu'il peut s'agir aussi bien d'un entier que d'un nombre décimal.
 
 ### integer
 Un entier est un nombre appartenant à la classe $`\mathbb{Z} = \{..., -2, -1, 0, 1, 2, ...\}`$.
@@ -80,8 +80,8 @@ Les opérateurs mathématiques du PHP sont repris dans le tableau ci-après.
 |$a + $b|Addition|Somme de $a et $b.|
 |$a - $b|Soustraction|Différence de $a et $b.|
 |$a * $b|Multiplication|Produit de $a et $b.|
-|$a / $b|Division|Quotient de $a et $b.|
-|$a % $b|Modulus|Reste de $a divisé par $b.|
+|$a / $b|Division|Quotient de $a par $b.|
+|$a % $b|Modulus|Reste de la division entière de $a par $b.|
 |$a ** $b|Exponentielle|Résultat de l'élévation de $a à la puissance $b.|
 
 L'opérateur de division `/` retourne une valeur à virgule flottante. Pour la division entière, il faut utiliser la fonction `intdiv`.
@@ -151,12 +151,12 @@ Il y a deux opérateurs de chaînes de caractères string. Le premier est l'opé
 
 ## Les types composés
 
-Les types composés sont construits de la composition d'une ou plusieurs variables de type scalaire (boolean, integer, float et string) ou de type composé. 
+Les types composés sont construits par la composition d'une ou plusieurs variables de type scalaire (boolean, integer, float et string) ou de type composé. 
 
 ### array
 Un tableau en PHP est en fait une carte ordonnée. Une carte est un type qui associe des valeurs à des clés. On parlera de tableau associatif. Pour définir un tableau on utilise le mot-clé `array` ou les `[ ]`. 
 
-*Un page sera consacrée à l'usage des tableaux en PHP.*
+*Une page sera consacrée à l'usage des tableaux en PHP.*
 
 ```php runnable
 <?php
