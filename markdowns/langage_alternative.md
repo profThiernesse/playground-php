@@ -2,7 +2,7 @@
 
 L'instruction `if` est une des plus importantes instructions de tous les langages, PHP inclus. Elle permet l'exécution conditionnelle d'une partie de code. 
 
-Comme nous l'avons vu dans le paragraphe consacré aux expressions, expression est convertie en sa valeur booléenne. Si l'expression vaut TRUE, PHP exécutera l'instruction et si elle vaut FALSE, l'instruction sera ignorée. 
+Comme nous l'avons vu dans le paragraphe consacré aux expressions, une expression est convertie en sa valeur booléenne. Si l'expression vaut TRUE, PHP exécutera l'instruction et si elle vaut FALSE, l'instruction sera ignorée. 
 
 Les fonctionnalités de l'instruction `if` sont les mêmes en PHP qu'en C :
 
